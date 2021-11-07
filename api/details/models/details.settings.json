@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "details",
+  "info": {
+    "name": "Details"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "phonenumber": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "uid": {
+      "type": "string"
+    },
+    "verification": {
+      "type": "boolean"
+    }
+  }
+}
